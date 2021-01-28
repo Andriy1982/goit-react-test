@@ -35,4 +35,11 @@ const changeFilter = createAction('todos/changeFilter');
 
 const toggleCompleted = createAction('todo/toggleCompleted');
 
-export default { addTodo, deleteTodo, changeFilter, toggleCompleted };
+const todosActions = {
+  addTodo,
+  deleteTodo,
+  changeFilter,
+  toggleCompleted,
+};
+
+export default todosActions;

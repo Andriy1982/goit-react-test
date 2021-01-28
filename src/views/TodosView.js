@@ -79,7 +79,7 @@ class TodosView extends Component {
 
         {showModal && (
           <Modal onClose={this.toggleModal}>
-            <TodoEditor />
+            <TodoEditor onClose={this.toggleModal} />
           </Modal>
         )}
       </Container>
